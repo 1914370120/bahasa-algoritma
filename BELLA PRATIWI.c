@@ -11,16 +11,16 @@ int main()
 
     int a=50;
     int b=30;
-    int c;
-    c=a+b;
-    printf("baris 1 -nilai c adalah %d\n",c);
-    c=a-b;
-    printf("baris 2 -nilai c adalah %d\n",c);
-    c=a*b;
-    printf("baris 3 -nilai c adalah %d\n",c);
-    c=a/b;
-    printf("baris 4 -nilai c adalah %d\n",c);
+    int c,penjumlahan,pengurangan,perkalian,pembagian;
+    penjumlahan=a+b;
+    printf("hasil dari penjumlahan adalah %d\n",penjumlahan);
+    pengurangan=a-b;
+    printf("hasil dari pengurangan adalah %d\n",pengurangan);
+    perkalian=a*b;
+    printf("hasil dari perkalian adalah %d\n",perkalian);
+    pembagian=a/b;
+    printf("hasil dari pembagian adalah %d\n",pembagian);
     c= b%a;
-    printf("baris 5 -nilai c adalah %d\n",c);
+    printf("hasil dari modulus adalah %d\n",c);
     return 0;
 }
